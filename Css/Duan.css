@@ -6,58 +6,37 @@ body{
     text-align: center;
 }
 
-.jumbotron{
-    text-align: center;
-}
-header{
-    background: #f7f7f7;
-}
-.btn-primary {
-     
-    color: #fff;
-    background-color:  #252526;
-    border-color:  #252526;
+.banner-events{
+    margin-bottom: 80px;
+    display: flex;
 }
 
-.card-body-img img{
-    width: 70px;
-    height: 60px;
-    max-height: 100%;
-    max-width: 100%;
-}
-.banner-events{
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.events-img img {
-    width: 670px ;
-    max-width: 100%;
-    height: 500px;
-    max-height: 100%;
-}
-.banner-events .row .col-5 .card {
-    height: 500px;
+
+.banner-events .row .col-4 .card {
+    height: 100%;
     max-height: 100%;
     margin-right: -15px;
+    border-right:  2px #ffffffd2 solid ;
 }
-.banner-events .row .col-7 .events-img{
-    margin-left: -15px;
-
+.banner-events {
+    border: 3px #ffffffd2 solid ;
+    
 }
-.card img{
-    height:265px ;
-    width:370px ;
-    max-width: 100%;
-    max-height:100;
-    background: darkgray;
-}
-
 
 header {
     box-sizing: border-box;
     background: darkgray;
     width: 1800px 0 auto ;
+    max-width: 100%;
 }
+.header-container{
+   
+    max-width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
 main{
 background: white;
 }
@@ -71,7 +50,6 @@ background: white;
 main .peoplesay{
     
     padding-top: 50px;
-    height: 370px;
     text-align: center;
     color: white;
     padding-bottom: 44px;
@@ -82,43 +60,29 @@ main .peoplesay{
 
 
 
-.header-container{
-   
-    max-width: 100%;
-    text-align: center;
-    box-sizing: border-box;
-}
 
-header  {
-   
-max-width: 100%;
-
-
-}
-
-header{
-    padding: 0 100px 100px 100px ; 
-    background: #f7f7f7;
-}
 .jumbotron{
     margin-bottom: 0px;
-    height: 800px ;
     max-height: 100%;
     position: relative;
+    padding: 0px ;
+    border: 2px white solid;
     
 }
-.jumbotron-title h1 {
-    font-size : 127px ; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 .jumbotron-title{
-    top : 30%; 
-    left:20%;
-    right: 20%;
+    top : 20%; 
+    left: 50%;
+    right: 5%;
     transform: translate(-50% -50%);
     position: absolute;
 }
 
+   
+
+.jumbotron_img{
+    max-height: 100%;
+}
 .navbar-expand-lg {
     position: relative;
 }
@@ -136,34 +100,30 @@ header{
     padding-bottom: 80px;
 }
 .Featured-Courses_title{
-    margin: 80px auto 32px auto  ;
-}
-
-.Course-Categories-background {
-    background: #f7f7f7;
-    padding-bottom: 80px ;
-   
+    padding: 50px 0 32px 0  ;
 }
 
 .Course-Categories{
 padding-top:  50px;
 }
-.Course-Categories .Course-Categories-title h3 {
-    margin-bottom :  55px ;
+.Course-Categories .Course-Categories-title  {
+    padding-bottom :  32px ;
 }
-.card-body-img img {
-    margin-bottom: 40px;
-}
+
 .upcoming .upcoming_title h3 {
     margin-bottom: 30px;
-    margin-top: 70px;
+    margin-top: 40px;
+   
 }
 .events-background{
     padding-bottom: 80px ;
 }
 .peoplesay-background {
-    background: #252526;
-    
+    background: #252525c9 ;  
+    display: flex;
+  /* 
+  background: -webkit-radial-gradient(center center,circle farthest-side,  rgb(255, 137, 157)    0%,  #1d1c1c 150%);
+  */
 }
 .ourblog .ourbolg-title h2{
     margin-bottom: 30px;
@@ -174,55 +134,33 @@ padding-top:  50px;
     background: #ffffff;
    
 }
-.subscribe{
-    background: #778ce6;
-}
-.bg-light {
-    background: #778ce6;
-}
-.ontainer-header .navbar-expand-lg {
+.container-header .navbar-expand-lg {
     padding: 0;
 
 }
-.Course-Categories .row .col-3 .card{
+.container-header .navbar-expand-lg img {
+    height: 80px;
+    max-height: 100%;   
+}
 
-    width: 270px;
-    height: 260px;
-    max-height: 100%;
-    max-width: 100%;
-}
-.Course-Categories .row .col-3 .card .card-body img{
-    width: 157px;
-    height: 157px;
-    
-    max-height: 100%;
-    max-width: 100%;
-  
-}
-.Course-Categories .row .col-3 .card .card-body h5 {
- color:  #6c83e6;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 20px;
-}
-.banner-events .row .col-5 .card .card-body {
+
+
+.banner-events .row .col-4 .card .card-body {
     text-align: left;
- background: #ee5926 ;
+    background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(118, 234, 255) 150%); 
 }
-.banner-events .row .col-5 .card .card-body h5 {
+.banner-events .row .col-4 .card .card-body h5 {
     font-size: 40px;
+    color: rgb(4, 120, 253);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.banner-events .row .col-5 .card .card-body p {
+.banner-events .row .col-4 .card .card-body p {
     font-size: 18px;
-    color: white;
+    color: rgb(4, 120, 253);
     
 }
-.banner-events .row .col-5 .card .card-body h5 span {
-    font-size: 40px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.banner-events .row .col-5 .card .card-body{
+
+.banner-events .row .col-4 .card .card-body{
     padding: 70px 15px 70px 30px ;
 }
 .carousel-item  .row .col-4 .card {
@@ -261,33 +199,20 @@ color : #949599;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
-.carousel-item  .row .col-4 .card .card-body .card-star{
-    float: left;
-    width: 120px;
-    max-width: 100%;
-    
-}
-.carousel-item  .row .col-4 .card .card-body .card-star img {
-width: 18px;
-height: 18px;
-max-height: 100%;
-max-width: 100%;
-}
 .carousel .carousel-control-next{
     margin-right: -165px;
     
-    background: -webkit-radial-gradient(center center,circle farthest-side,black 0%, #ffffff 15%);
-   
 }
 .carousel .carousel-control-prev {
     margin-left:-165px;
-     
-    background: -webkit-radial-gradient(center center,circle farthest-side, black 0%, #ffffff  15%);
-   
-}
-.carousel-control-prev span{
+  }
+.fa-arrow-circle-right {
     color: black;
 }
+.fa-arrow-circle-left {
+    color: black;
+}
+
 .subscribe{
     height: 130px;
     text-align: center;
@@ -307,12 +232,7 @@ max-width: 100%;
     width:  300px;
     float: right;
 }
-.footer-coppyright .container .all-icon .list-group-horizontal-lg .list-group-item img {
-    width: 20px;
-    height: 20px;
-    max-height: 100%;
-max-width: 100%;
-}
+
 .footer-coppyright { 
     padding-top: 16px;
 }
@@ -348,3 +268,319 @@ footer .footer {
     padding-left: 0;
     text-align: left;
 }
+header{
+    background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(255, 137, 157) 150%);
+}
+.Featured-backgrond{
+    background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(255, 137, 157) 150%);
+}
+.Course-Categories-background {
+    background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(255, 137, 157) 150%);
+    padding-bottom: 50px ;  
+}
+.events-background{
+    background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(255, 137, 157) 150%);
+    padding-top: 30px;
+}
+.subscribe{
+    background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff -100%,  rgb(255, 137, 157) 150%);
+}
+
+.form-inline .form-control{
+    width:  285px;
+}
+
+.container-fluid {
+    padding-left: 0px ; 
+    padding-right: 0px;
+}
+.upcoming .upcoming_title h3 {}
+
+
+
+header{
+    padding: 0 20px 20px 20px ; 
+ 
+}
+.jumbotron-title h1 {
+    font-size : 18px ; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f7b2da;
+}
+.jumbotron-title .btn-primary {
+    font-size : 24px ; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgba(104, 224, 245, 0.315);
+    border: none;
+    color: #f7b2da;
+
+}
+.Course-Categories .row .col-4 .card .card-body{
+    padding: 0;
+    margin-bottom: 20px;
+    
+}
+.Course-Categories .row .col-4 .card {
+    border-style:  none;
+    background-color: initial;
+}
+.carousel .carousel-indicators li {
+    width: .625rem; 
+    height: .625rem; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%; 
+    cursor: pointer; 
+}
+
+.bg-subscribe {
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(255, 137, 157) 150%);    
+}
+.subscribe .container .navbar .navbar-brand{
+margin: 5px 0px 5px 10px;
+}
+.events .upcoming{
+ margin-bottom: 40px;
+}
+
+
+
+@font-face{
+    src:url(../font/french-script-mt/FrenchScriptMT.ttf);
+    font-family: 'French Script MT',Arial, Helvetica, sans-serif;
+  }
+ 
+  @font-face {font-family: "French Script MT";
+    src: url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.eot");
+    src: url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.svg#French Script MT") format("svg");
+}
+ /*
+      font-family:'French Script MT',Arial, Helvetica, sans-serif;
+      font-size: 30px;
+  }
+*/
+
+.container-header .navbar .navbar-brand{
+    font-family: 'French Script MT',Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+}
+h3 {
+    font-family: 'French Script MT',Arial, Helvetica, sans-serif; 
+    font-size: 60px;
+}
+.banner-events .row .col-4 .card .card-body h5 {
+  color: black;
+    font-size: 27px;
+}
+.banner-events .row .col-4 .card .card-body p {
+    color: black;
+   
+}
+.peoplesay h4 {
+    font-family: 'French Script MT',Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+}
+.peoplesay p {
+    font-family: 'French Script MT',Arial, Helvetica, sans-serif; 
+    font-size: 30px;
+}
+.card-body .card-title  {
+    font-size: 18px;
+    font-family: 'Arial', Courier, monospace;
+}
+
+
+@media (min-width : 567px){
+    header{
+        padding: 0 30px 30px 30px  ; 
+       
+    }
+    .jumbotron-title h1 {
+        font-size : 24px ; 
+       
+    }
+    .jumbotron-title .btn-primary {
+        font-size : 30px ; 
+       
+    
+}
+
+
+@media (min-width : 768px){
+    header{
+        padding: 0 52px 52px 52px; 
+       
+    }
+    .jumbotron-title h1 {
+        font-size : 50px ; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #f7b2da;
+    }
+    .jumbotron-title .btn-primary {
+        font-size : 40px ; 
+        
+    }
+}
+
+
+@media (min-width : 992px){
+    header{
+        padding: 0 75px 75px 75px; 
+       
+    }
+    .jumbotron-title h1 {
+        font-size : 70px ; 
+      
+    }
+    .jumbotron-title .btn-primary {
+        font-size : 55px ; 
+        
+    }
+    .banner-events .row .col-8 .events-img{
+        margin-left: -15px;
+    
+    }
+    
+    .card-body-img img{
+    
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .footer-coppyright .container .all-icon .list-group-horizontal-lg .list-group-item img {
+        width: 20px;
+        height: 20px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .card img{
+        max-width: 100%;
+        max-height:100;
+    }
+  
+    
+}
+
+@media (min-width : 1200px){
+header{
+        padding: 0 150px 100px 150px ; 
+      
+    }
+    .jumbotron-title h1 {
+        font-size : 70px ; 
+     
+    }
+    .jumbotron-title .btn-primary {
+        font-size : 60px ; 
+        
+    }
+
+
+.footer-coppyright .container .all-icon .list-group-horizontal-lg .list-group-item img {
+    width: 20px;
+    height: 20px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.card img{
+    
+    max-width: 100%;
+    max-height:100;
+    background: darkgray;
+}
+
+}
+
+
+
+
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1500px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  
