@@ -226,7 +226,10 @@ color : #949599;
     width: 380px;
 }
 .footer-coppyright .container .all-rights p {
+    font-family: 'French Script MT',Arial, Helvetica, sans-serif; 
+    font-size: 30px;
     color: white;
+    margin:  0;
 }
 .footer-coppyright .container .all-icon{
     width:  300px;
@@ -234,8 +237,10 @@ color : #949599;
 }
 
 .footer-coppyright { 
-    padding-top: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 footer .footer {
     padding: 50px 0 70px 0 ;
     background: #252526;
@@ -264,9 +269,18 @@ footer .footer {
     font-size: 14px;
     color: white;
 }
+ .footer-title .navbar-brand-img {
+     margin-top: 27px;
+     width: 300px;
+     max-width: 100%;
+ }
 .footer .container .row .col-4 .row .col-6  {
     padding-left: 0;
     text-align: left;
+}
+.media .mr-3 {
+    max-width: 100%;
+    width: 80px;
 }
 header{
     background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(255, 137, 157) 150%);
@@ -294,10 +308,9 @@ header{
     padding-left: 0px ; 
     padding-right: 0px;
 }
-.upcoming .upcoming_title h3 {}
-
-
-
+audio{
+    height: 45px;
+}
 header{
     padding: 0 20px 20px 20px ; 
  
