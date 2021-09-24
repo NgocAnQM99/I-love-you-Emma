@@ -12,7 +12,7 @@ body{
 }
 
 
-.banner-events .row .col-4 .card {
+.banner-events .row .col-left .card {
     height: 100%;
     max-height: 100%;
     margin-right: -15px;
@@ -145,22 +145,22 @@ padding-top:  50px;
 
 
 
-.banner-events .row .col-4 .card .card-body {
+.banner-events .row .col-left .card .card-body {
     text-align: left;
     background: -webkit-radial-gradient(center center,circle farthest-side,   #ffffff 0%,  rgb(118, 234, 255) 150%); 
 }
-.banner-events .row .col-4 .card .card-body h5 {
+.banner-events .row .col-left .card .card-body h5 {
     font-size: 40px;
     color: rgb(4, 120, 253);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'French Script MT',Arial, Helvetica, sans-serif;
 }
-.banner-events .row .col-4 .card .card-body p {
-    font-size: 18px;
+.banner-events .row .col-left .card .card-body p {
+    font-size: 21px;
     color: rgb(4, 120, 253);
     
 }
 
-.banner-events .row .col-4 .card .card-body{
+.banner-events .row .col-left .card .card-body{
     padding: 70px 15px 70px 30px ;
 }
 .carousel-item  .row .col-4 .card {
@@ -245,27 +245,27 @@ footer .footer {
     padding: 50px 0 70px 0 ;
     background: #252526;
 }
-.footer .container .row .col-4 .navbar-expand-lg {
+.footer .container .row .col-12 .navbar-expand-lg {
     margin-bottom: 25px;
 }
-.footer .container .row .col-4 .footer-title h5 {
+.footer .container .row .col-12 .footer-title h5 {
     font-size: 17px;
     color: #ffffff;
 }
-.footer .container .row .col-4 .media-body {
+.footer .container .row .col-12 .media-body {
     color: #ffffff;
     text-align: left;
 }
 
-.footer .container .row .col-4 .footer-title .navbar-expand-lg{
+.footer .container .row .col-12 .footer-title .navbar-expand-lg{
     margin-bottom: 50px;
     background: #252526;
 }
 
-.footer .container .row .col-4 .media {
+.footer .container .row .col-12 .media {
     margin-bottom: 20px;
 }
-.footer .container .row .col-4 .row .col-6 .course-categories p{
+.footer .container .row .col-12 .row .col-6 .course-categories p{
     font-size: 14px;
     color: white;
 }
@@ -274,7 +274,7 @@ footer .footer {
      width: 300px;
      max-width: 100%;
  }
-.footer .container .row .col-4 .row .col-6  {
+.footer .container .row .col-12 .row .col-6  {
     padding-left: 0;
     text-align: left;
 }
@@ -364,7 +364,7 @@ margin: 5px 0px 5px 10px;
     font-family: 'French Script MT',Arial, Helvetica, sans-serif;
   }
  
-  @font-face {font-family: "French Script MT";
+@font-face {font-family: "French Script MT";
     src: url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.eot");
     src: url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.eot?#iefix") format("embedded-opentype"),
     url("//db.onlinewebfonts.com/t/c2f7638be87032cd75a21eeceffd56bd.woff2") format("woff2"),
@@ -386,13 +386,14 @@ h3 {
     font-family: 'French Script MT',Arial, Helvetica, sans-serif; 
     font-size: 60px;
 }
-.banner-events .row .col-4 .card .card-body h5 {
-  color: black;
-    font-size: 27px;
-}
-.banner-events .row .col-4 .card .card-body p {
+.banner-events .row .col-left .card .card-body h5 {
     color: black;
-   
+    font-size: 30px;
+    font-family: 'French Script MT', 'Arial Narrow', Arial, sans-serif;
+}
+.banner-events .row .col-left .card .card-body p {
+    color: black;
+    font-family: 'French Script MT', 'Arial Narrow', Arial, sans-serif;
 }
 .peoplesay h4 {
     font-family: 'French Script MT',Arial, Helvetica, sans-serif; 
@@ -407,20 +408,94 @@ h3 {
     font-family: 'Arial', Courier, monospace;
 }
 
+/* @media (max-width : 567px){
+    .carousel .carousel-control-next {
+        margin-right: -0px;
+    }
+    .carousel .carousel-control-prev {
+        margin-left: -0px;
+    }
+} */
+@media (min-width : 1px){
+    header{
+        padding: 0 30px 30px 30px; 
+    }
+    .jumbotron-title h1 {
+        font-size : 24px; 
+    }
+    .jumbotron-title .btn-primary {
+        font-size : 30px; 
+    }   
+    .carousel .carousel-control-next {
+        margin-right: -0px;
+    }
+    .carousel .carousel-control-prev {
+        margin-left: -0px;
+    }
+    .Featured-Courses_title h3,
+    .Course-Categories .Course-Categories-title h3,
+    .upcoming_title h3 {
+        font-size: 50px;
+    }
+    .banner-events .row .col-left {
+        padding-right: 30px;
+    }
+    .banner-events .row .col-right {
+        padding-right: 15px;
+    }
+    .peoplesay h4 {
+        font-size: 35px;
+    }
+    .peoplesay p {
+        font-size: 28px;
+    }
+    .footer-coppyright .container .all-rights p {
+        font-size: 28px;
+    }
+    .text-footer { 
+        padding-left: 20px;
+    }
+}
 
 @media (min-width : 567px){
     header{
-        padding: 0 30px 30px 30px  ; 
-       
+        padding: 0 30px 30px 30px; 
     }
     .jumbotron-title h1 {
-        font-size : 24px ; 
-       
+        font-size : 24px; 
     }
     .jumbotron-title .btn-primary {
-        font-size : 30px ; 
-       
-    
+        font-size : 30px; 
+    }   
+    .carousel .carousel-control-next {
+        margin-right: -0px;
+    }
+    .carousel .carousel-control-prev {
+        margin-left: -0px;
+    }
+    .Featured-Courses_title h3,
+    .Course-Categories .Course-Categories-title h3,
+    .upcoming_title h3 {
+        font-size: 50px;
+    }
+    .banner-events .row .col-sm-12 {
+        padding-right: 30px;
+    }
+    .banner-events .row .col-right {
+        padding-right: 15px;
+    }
+    .peoplesay h4 {
+        font-size: 35px;
+    }
+    .peoplesay p {
+        font-size: 28px;
+    }
+    .footer-coppyright .container .all-rights p {
+        font-size: 28px;
+    }
+    .text-footer { 
+        padding-left: 20px;
+    }
 }
 
 
@@ -438,6 +513,15 @@ h3 {
         font-size : 40px ; 
         
     }
+    .carousel .carousel-control-next{
+        margin-right: -90px;
+    }
+    .carousel .carousel-control-prev {
+        margin-left: -90px;
+    }
+    .banner-events .row .col-sm-12 {
+        padding-right: 13px;
+    }
 }
 
 
@@ -454,7 +538,7 @@ h3 {
         font-size : 55px ; 
         
     }
-    .banner-events .row .col-8 .events-img{
+    .banner-events .row .col-right .events-img{
         margin-left: -15px;
     
     }
@@ -475,7 +559,12 @@ h3 {
         max-width: 100%;
         max-height:100;
     }
-  
+    .carousel .carousel-control-next{
+        margin-right: -150px;
+    }
+    .carousel .carousel-control-prev {
+        margin-left: -150px;
+    }
     
 }
 
@@ -589,11 +678,9 @@ header{
     cursor: pointer;
   }
   
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
     .modal-content {
-      width: 100%;
+        width: 100%;
     }
-  }
-
-  
+}
